@@ -6,6 +6,8 @@ import { sidebar } from './relaConf'
 export default defineConfig({
   title: "小宏同学的个人博客",
   description: "A Persional Blog",
+  base: process.env.NODE_ENV === 'production' ? '/knot-vue/' : '/',
+  lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/avatar.jpg',
@@ -16,6 +18,13 @@ export default defineConfig({
     ],
     search: {
       provider: 'local'
-    }
+    },
+    // footer: {
+    //   message: 'Released under the MIT License.',
+    //   // copyright: 'Copyright © 2023-present Evan You'
+    // },
+  },
+  markdown: {
+    lineNumbers: true,
   }
 })
