@@ -6,7 +6,7 @@ import { sidebar } from './relaConf'
 export default defineConfig({
   title: "小宏同学的个人博客",
   description: "A Persional Blog",
-  base: process.env.NODE_ENV === 'production' ? '/knot-vue/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/my-blog/' : '/',
   lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
