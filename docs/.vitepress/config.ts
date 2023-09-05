@@ -14,15 +14,15 @@ export default defineConfig({
     nav: nav,
     sidebar: sidebar,
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/lh-js/my-blog' }
     ],
     search: {
       provider: 'local'
     },
-    // footer: {
-    //   message: 'Released under the MIT License.',
-    //   // copyright: 'Copyright © 2023-present Evan You'
-    // },
+    footer: {
+      message: 'Released under the MIT License.',
+      // copyright: 'Copyright © 2023-present Evan You'
+    },
   },
   markdown: {
     lineNumbers: true,

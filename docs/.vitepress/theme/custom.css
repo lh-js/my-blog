@@ -27,3 +27,10 @@
   --vp-c-brand-dark: var(--vp-c-purple-dark);
   --vp-c-brand-darker: var(--vp-c-purple-darker);
 }
+
+
+
+/* 框架样式覆盖 */
+.VPHome {
+  padding-bottom: 40px !important;
+}

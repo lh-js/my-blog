@@ -1,24 +1,22 @@
 import { DefaultTheme } from 'vitepress';
 export const sidebar: DefaultTheme.Sidebar = {
-  // /column/Algothm/表示对这个文件夹下的所有md文件做侧边栏配置
-  '/column/Algorithm/': [
-     // 第一部分
+  '/blog/vue/': [
     {
-      text: '栈和队列',
+      text: '基础问题',
       items: [
         {
           text: '栈-深拷贝和浅拷贝',
-          link: '/column/Algorithm/001_Stack'
+          link: '/blog/vue/'
         },
         {
           text: '队列-事件循环',
-          link: '/column/Algorithm/002_Queue'
+          link: '/blog/vue/'
         }
       ]
     },
     // 第二部分
     {
-      text: '字典和树',
+      text: '开发文档',
       items: [
         {
           text: '字典和集合-Set和Map',

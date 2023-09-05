@@ -9,11 +9,10 @@ title: 小宏同学的博客
 titleTemplate: Hi，终于等到你
 editLink: true
 lastUpdated: true
-
 hero:
     name: 小宏同学
-    text: Stay foolish, Stay hungry.
-    tagline: /斜杠青年/人间清醒/工具控/
+    text: Keep going,move forward!
+    tagline: /斜杠青年/人间清醒/热爱生活/
     image:
         # 首页右边的图片
         # src: /avatar.jpg
@@ -27,16 +26,20 @@ hero:
     - theme: alt
       text: 个人成长
       link: /column/Growing/
-# 按钮下方的描述
 features:
   - icon: 🤹
     title: 热爱编程
     details: 前端程序员，国内某互联网厂搬砖。
-    link: /column/views/guide
+    link: '/'
+    linkText: '欢迎交流技术'
   - icon: 🎨
     title: 喜欢美学
-    details: 热爱一切美学，喜欢用各种设计工具造图。
+    details: 热爱一切美学，喜欢自己造轮子。
+    link: '/'
+    linkText: '一起创造'
   - icon: 🧩
     title: 斜杆青年
     details: 是个平平无奇但是又很热爱学习的斜杆青年。
+    link: '/'
+    linkText: '很高兴认识你'
 ---
