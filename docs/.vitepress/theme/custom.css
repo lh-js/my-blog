@@ -34,3 +34,7 @@
 .VPHome {
   padding-bottom: 40px !important;
 }
+
+.VPImage {
+  border-radius: 30px;
+}

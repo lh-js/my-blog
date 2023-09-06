@@ -10,7 +10,7 @@ export default defineConfig({
   lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/avatar.jpg',
+    logo: '/avatar.png',
     nav: nav,
     sidebar: sidebar,
     socialLinks: [

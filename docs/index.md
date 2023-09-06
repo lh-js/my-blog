@@ -15,7 +15,7 @@ hero:
     tagline: /斜杠青年/人间清醒/热爱生活/
     image:
         # 首页右边的图片
-        # src: /avatar.jpg
+        src: /home.png
         # 图片的描述
         alt: avatar
     # 按钮相关
