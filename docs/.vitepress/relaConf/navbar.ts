@@ -9,12 +9,16 @@ export const nav: DefaultTheme.NavItem[] = [
     items: [
       {
         text: 'vue',
-        link: '/blog/vue/' // 表示docs/column/Travel/index.md
+        link: '/blog/vue/'
       },
       {
         text: 'react',
-        link: '/blog/react/' // 表示docs/column/Growing/index.md
-      }
+        link: '/blog/react/'
+      },
+      {
+        text: 'js',
+        link: '/blog/js/apply-call-bind'
+      },
     ]
   },
   {

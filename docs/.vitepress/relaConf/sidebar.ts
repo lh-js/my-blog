@@ -4,28 +4,32 @@ export const sidebar: DefaultTheme.Sidebar = {
     {
       text: '基础问题',
       items: [
-        {
-          text: '栈-深拷贝和浅拷贝',
-          link: '/blog/vue/'
-        },
-        {
-          text: '队列-事件循环',
-          link: '/blog/vue/'
-        }
+
       ]
     },
     // 第二部分
     {
-      text: '开发文档',
+      text: '疑难问题',
+      items: [
+
+      ]
+    }
+  ],
+  '/blog/js/': [
+    {
+      text: '基础知识',
       items: [
         {
-          text: '字典和集合-Set和Map',
-          link: '/column/Algorithm/003_Dictionary'
+          text: 'apply、call、bind的作用',
+          link: '/blog/js/apply-call-bind'
         },
-        {
-          text: '树-深/广度优先遍历',
-          link: '/column/Algorithm/004_Tree'
-        }
+      ]
+    },
+    // 第二部分
+    {
+      text: '疑难问题',
+      items: [
+
       ]
     }
   ]
