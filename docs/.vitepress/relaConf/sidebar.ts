@@ -23,6 +23,10 @@ export const sidebar: DefaultTheme.Sidebar = {
           text: 'apply、call、bind的作用',
           link: '/blog/js/apply-call-bind'
         },
+        {
+          text: '数组去重方法',
+          link: '/blog/js/array-deduplication'
+        },
       ]
     },
     // 第二部分
