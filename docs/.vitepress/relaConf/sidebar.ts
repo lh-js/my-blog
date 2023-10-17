@@ -26,14 +26,17 @@ export const sidebar: DefaultTheme.Sidebar = {
         {
           text: '数组去重方法',
           link: '/blog/js/array-deduplication'
-        },
+        }
       ]
     },
     // 第二部分
     {
       text: '疑难问题',
       items: [
-
+        {
+          text: 'a标签blob下载',
+          link: '/blog/js/a-download'
+        },
       ]
     }
   ]
